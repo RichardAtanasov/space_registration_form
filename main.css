@@ -47,11 +47,14 @@ button {
     width: 200px;
     align-items: center;
     border-radius: 10%;
+    border: none;
 }
 
 button:hover {
-    transition: 10ms #14dcbb ;
+    background-color: #14dcbb;
+    border: none;
+    transition: 1s ease-out;
     width: 200px;
     align-items: center;
-    border-radius: 10%;
+    border-radius: 20%;
 }
